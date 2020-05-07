@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8152581a-09eb-4017-89ee-fd6021bd7eba" name="Default Changelist" comment="" />
+    <list default="true" id="8152581a-09eb-4017-89ee-fd6021bd7eba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/base/02/SafeCals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/02/VolatileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-concurrecy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-concurrecy.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,19 +42,27 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.SafeCals">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="base.Main" />
       <module name="java-concurrecy" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SafeCals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SafeCals" />
+      <module name="java-concurrecy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -69,9 +83,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.SafeCals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SafeCals" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
       </list>
@@ -89,6 +105,8 @@
       <updated>1588034556172</updated>
       <workItem from="1588034559815" duration="2435000" />
       <workItem from="1588037564561" duration="4000" />
+      <workItem from="1588335269902" duration="1251000" />
+      <workItem from="1588822660514" duration="809000" />
     </task>
     <servers />
   </component>
@@ -96,29 +114,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588335403596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588335403596" />
     <state x="467" y="231" width="431" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588036367055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="467" y="231" width="431" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1588036367055" />
-    <state width="1323" height="129" key="GridCell.Tab.0.bottom" timestamp="1588036384362">
+    <state width="1323" height="112" key="GridCell.Tab.0.bottom" timestamp="1588823469646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="129" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588036384362" />
-    <state width="1323" height="129" key="GridCell.Tab.0.center" timestamp="1588036384361">
+    <state width="1323" height="112" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588823469646" />
+    <state width="1323" height="112" key="GridCell.Tab.0.center" timestamp="1588823469645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="129" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588036384361" />
-    <state width="1323" height="129" key="GridCell.Tab.0.left" timestamp="1588036384361">
+    <state width="1323" height="112" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588823469645" />
+    <state width="1323" height="112" key="GridCell.Tab.0.left" timestamp="1588823469645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="129" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588036384361" />
-    <state width="1323" height="129" key="GridCell.Tab.0.right" timestamp="1588036384362">
+    <state width="1323" height="112" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588823469645" />
+    <state width="1323" height="112" key="GridCell.Tab.0.right" timestamp="1588823469646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="129" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588036384362" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1588036347643">
+    <state width="1323" height="112" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588823469646" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1588335611588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588036347643" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588335611588" />
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1588822659991">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588822659991" />
   </component>
 </project>
